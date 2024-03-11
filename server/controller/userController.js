@@ -18,7 +18,7 @@ const userSignup = async (req, res) => {
       userPassword: spassword,
     });
 
-    await newUser.save();
+    await newUser.save(); 
     res.status(201).json({ message: "Successfully Registred" });
   } catch (err) {
     return res.status(400).json({

@@ -1,6 +1,6 @@
 <template>
   <div class="min-h-screen flex items-center justify-center bg-gray-100">
-    <div class="max-w-md w-full p-8 bg-white shadow-md rounded-md">
+    <div class="max-w-md w-full p-8 bg-white shadow-md rounded-md"> 
       <h2 class="text-3xl font-bold mb-4 text-center">CHECK THE WEATHER</h2>
       <p class="text-center mb-4">
         {{ isRegister ? 'Already a user? ' : 'Are you a new user? ' }}
